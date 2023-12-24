@@ -1,0 +1,13 @@
+.info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 80vh;
+}
+.info-text{
+    font-size: 25px;
+}
+b{
+    font-size: 30px;
+}

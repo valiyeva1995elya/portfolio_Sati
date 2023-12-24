@@ -1,0 +1,31 @@
+.block{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header{
+    width: 40%;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+p{
+    font-family: 'Advent Pro', sans-serif;
+}
+.text{
+    color: white;
+    font-size: 20px;
+    font-family: 'Advent Pro', sans-serif;
+    font-weight: 200;
+    text-decoration: none;
+    margin-top: 20px;
+    transition: 1s;
+}
+.text:hover{
+    text-shadow: 3px 3px 5px red;
+    transform: scale(1.2);
+}
+u{
+  
+}
