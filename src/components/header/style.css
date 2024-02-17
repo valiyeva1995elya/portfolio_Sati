@@ -4,19 +4,20 @@
     align-items: center;
 }
 .header{
-    width: 40%;
-    height: 50px;
+    width: 30%;
+    height: 100px;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    margin-bottom: 3px;
 }
 p{
-    font-family: 'Advent Pro', sans-serif;
+    /* font-family: 'Advent Pro', sans-serif; */
 }
 .text{
     color: white;
-    font-size: 20px;
-    font-family: 'Advent Pro', sans-serif;
+    font-size: 25px;
+    /* font-family: 'Advent Pro', sans-serif; */
     font-weight: 200;
     text-decoration: none;
     margin-top: 20px;
@@ -25,7 +26,4 @@ p{
 .text:hover{
     text-shadow: 3px 3px 5px red;
     transform: scale(1.2);
-}
-u{
-  
 }

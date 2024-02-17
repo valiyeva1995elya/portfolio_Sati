@@ -13,11 +13,11 @@ function Header() {
           <Link to="/portfolio">
             <p className="text">Портфолио</p>
           </Link>
-          <Link to="/information">
+          {/* <Link to="/information">
             <u>
               <p className="text">Информация</p>
             </u>
-          </Link>
+          </Link> */}
           <Link to="/contact">
             <p className="text">Контакты</p>
           </Link>
@@ -32,9 +32,9 @@ function Header() {
               <p className="text">Портфолио</p>
             </u>
           </Link>
-          <Link to="/information">
+          {/* <Link to="/information">
             <p className="text">Информация</p>
-          </Link>
+          </Link> */}
           <Link to="/contact">
             <p className="text">Контакты</p>
           </Link>
@@ -47,9 +47,9 @@ function Header() {
           <Link to="/portfolio">
             <p className="text">Портфолио</p>
           </Link>
-          <Link to="/information">
+          {/* <Link to="/information">
             <p className="text">Информация</p>
-          </Link>
+          </Link> */}
           <Link to="/contact">
             <u>
               <p className="text">Контакты</p>
@@ -66,9 +66,9 @@ function Header() {
           <Link to="/portfolio">
             <p className="text">Портфолио</p>
           </Link>
-          <Link to="/information">
+          {/* <Link to="/information">
             <p className="text">Информация</p>
-          </Link>
+          </Link> */}
           <Link to="/contact">
             <p className="text">Контакты</p>
           </Link>

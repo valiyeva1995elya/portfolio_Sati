@@ -1,5 +1,5 @@
 import { createBrowserRouter } from "react-router-dom"
-import {  Main, Information, ErrorPage, Portfolio, Contact } from "./components"
+import {  Main, ErrorPage, Portfolio, Contact,Photo } from "./components"
 
 
 const router = createBrowserRouter([
@@ -8,14 +8,15 @@ const router = createBrowserRouter([
         element: <Main/>,
         errorElement: <ErrorPage />,
     },
-    {
-        path: "/information",
-        element: <Information/>,
-        errorElement: <ErrorPage />,
-    },
+    
     {
         path: "/portfolio",
         element: <Portfolio/>,
+        errorElement: <ErrorPage />,
+    },
+    {
+        path: "/portfolio/:img",
+        element: <Photo/>,
         errorElement: <ErrorPage />,
     },
     {
